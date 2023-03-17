@@ -54,7 +54,7 @@ body{
     box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
-.next-btn{
+#next-btn{
     cursor: pointer;
     background: tomato;
     color:white;
@@ -64,4 +64,14 @@ body{
     padding: 8px;
     display: none;
     font-weight: 700;
+}
+
+.correct{
+    background: black;
+    color: white;
+}
+
+.incorrect{
+    background: black;
+    color: white;
 }
