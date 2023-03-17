@@ -120,7 +120,7 @@ function showScore(){
         questionElement.innerHTML = `You score ${score} out of ${questions.length}!<br>You have some knowledge about Turbo, but you should learn more about him.`;
     }
     if(score === 4){
-        questionElement.innerHTML = `You score ${score} out of ${questions.length}!<br>You're an Turbo expert. You might end up becoming friend with him.`;
+        questionElement.innerHTML = `You score ${score} out of ${questions.length}!<br>You're Turbo expert. You might end up becoming friend with him.`;
     }
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
