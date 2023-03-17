@@ -121,8 +121,6 @@ function showScore(){
     }
     if(score === 4){
         questionElement.innerHTML = `You score ${score} out of ${questions.length}!<br>You're an Turbo expert. You might end up becoming friend with him.`;
-    }else{
-        questionElement.innerHTML = `You score ${score} out of ${questions.length}!<br>You are Turbo's best friend.`;
     }
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
