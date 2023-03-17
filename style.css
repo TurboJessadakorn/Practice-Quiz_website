@@ -11,7 +11,6 @@ body{
     
     width: 550px;
     background-color:rgb(255, 255, 255);
-    
     border-radius: 10px;
     padding: 40px;
     margin: 100px auto 0;    
@@ -21,9 +20,7 @@ body{
     width: 100%;
     padding:10px;
     padding-bottom: 20px;
-    
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 
 .question-container h2{
@@ -34,10 +31,8 @@ body{
 
 .choice-container{
     width: 100%;
-    
     background-color: rgb(255, 255, 255);
 }
-
 
 .choice-btn{
     cursor: pointer;
@@ -50,8 +45,13 @@ body{
     text-align: left;
 }
 
-.choice-btn:hover{
-    box-shadow: 0 0 11px rgba(33,33,33,.2);
+.choice-btn:hover:not([disabled]){
+    background: dimgray;
+    color: white;
+}
+
+.choice-btn:disabled{
+    cursor: no-drop;
 }
 
 #next-btn{
